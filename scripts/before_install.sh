@@ -7,10 +7,10 @@ nvm install node
 npm install -g @nestjs/cli
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/nest-app"
-if [ -d "$DIR"]; then
-    echo "${DIR} exists"
-else
-    echo "Creating ${DIR} directory"
-    mkdir ${DIR}
-fi
+# DIR="/home/ec2-user/nest-app"
+# if [ -d "$DIR"]; then
+#     echo "${DIR} exists"
+# else
+#     echo "Creating ${DIR} directory"
+#     mkdir ${DIR}
+# fi
