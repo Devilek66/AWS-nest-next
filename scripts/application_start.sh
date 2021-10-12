@@ -16,7 +16,8 @@ npm install
 
 #start our node app in the background
 npm run build
-sudo pm2 start npm --name "HelloWorld"
+pm2 start npm --name "HelloWorld"
+pm2 log
 #pm2 --name HelloWorld start npm -- run start:prod
 #pm2 start npm --name "my-app-name" -- run "start:prod"
 #pm2 start npm --name "app name" -- start
