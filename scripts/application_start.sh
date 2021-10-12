@@ -16,5 +16,8 @@ npm install
 
 #start our node app in the background
 npm run build
-pm2 --name HelloWorld start npm run -- start:prod
+pm2 start npm --name "HelloWorld"
+#pm2 --name HelloWorld start npm -- run start:prod
+#pm2 start npm --name "my-app-name" -- run "start:prod"
+#pm2 start npm --name "app name" -- start
 #node app.js > app.out.log 2> app.err.log < /dev/null & 
