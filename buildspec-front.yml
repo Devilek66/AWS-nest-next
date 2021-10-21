@@ -11,7 +11,7 @@ phases:
       - cd ./Front/my-test-app/
   install:
     runtime-versions:
-        nodejs: 10
+        nodejs: 14
     commands:
         - echo Installing source NPM dependencies...
         - npm install
