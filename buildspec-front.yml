@@ -6,13 +6,11 @@ env:
         S3_BUCKET: "{{s3_bucket_url}}"
         BUILD_FOLDER: "dist"
 phases:
-  pre_build:
-    commands:
-      - cd ./Front/my-test-app/
   install:
     runtime-versions:
         nodejs: 14
     commands:
+        - cd ./Front/my-test-app/
         - echo Installing source NPM dependencies...
         - npm install
         - npm install -g @angular/cli
