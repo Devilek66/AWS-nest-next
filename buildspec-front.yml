@@ -6,7 +6,7 @@ env:
         S3_BUCKET: "{{s3_bucket_url}}"
         BUILD_FOLDER: "dist"
 phases:
-  move:
+  pre_build:
     commands:
       - cd ./Front/my-test-app/
   install:
